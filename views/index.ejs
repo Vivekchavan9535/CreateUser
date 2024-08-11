@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Creator</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="bg-zinc-900 h-full w-full p-10 text-white">
+    <a class="text-blue-500 text-s inline-block mb-10" href="/read">Read AllUsers</a>
+
+    <h1 class="text-xl mb-10">Create User</h1>
+
+    <form class="flex gap-3 flex-wrap" action="/create" method="post">
+
+      <input class="bg-transparent border-2 border-black rounded-lg px-5 py-3 outline-0 placeholder-white"
+        placeholder="Name" type="text" name="name" id="" />
+
+      <input class="bg-transparent border-2 border-black rounded-lg px-5 py-3 outline-0 placeholder-white"
+        placeholder="Email" type="text" name="email" id="" />
+
+      <input class="bg-transparent border-2 border-black rounded-lg px-5 py-3 outline-0 placeholder-white"
+        placeholder="ImageUrl" type="text" name="image" id="" />
+
+      <input class="bg-green-700 px-5 py-3 rounded-lg" type="submit" name="" id="" value="create user" />
+
+
+    </form>
+  </div>
+</body>
+
+</html>
